@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="test/xsl" href="./Transformation/NDExTransformer.xslt"?>
+<IncidentReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MSP_Incident_Report.xsd">
+        <ReportCreatedDate>2013-05-29</ReportCreatedDate>
+        <AgencyORI>30600</AgencyORI>
+        <Person id="P213002429-29-1">
+                <PersonName>
+                        <FirstName>ANGELA</FirstName>
+                        <LastName>COPELAND</LastName>
+                </PersonName>
+                <BirthDate>1976-07-13</BirthDate>
+                <HeightMeasureInches>55</HeightMeasureInches>
+                <WeightMeasurePounds>135</WeightMeasurePounds>
+                <HairColorText>Brown</HairColorText>
+                <EyeColorText>Brown</EyeColorText>
+                <SexText>F</SexText>
+                <Race>W</Race>
+        </Person>
+        <Person id="P213002429-9-1">
+                <PersonName>
+                        <FirstName>ANGELA</FirstName>
+                        <LastName>COPELAND</LastName>
+                </PersonName>
+                <BirthDate>1976-07-13</BirthDate>
+                <OperatorLicense>
+                        <IssuingState>ME</IssuingState>
+                </OperatorLicense>
+                <HeightMeasureInches>55</HeightMeasureInches>
+                <WeightMeasurePounds>135</WeightMeasurePounds>
+                <HairColorText>Brown</HairColorText>
+                <EyeColorText>Brown</EyeColorText>
+                <SexText>F</SexText>
+                <Race>W</Race>
+                <ContactInformation>
+                        <AddressReference ref="ASPPD1" />
+                </ContactInformation>
+        </Person>
+        <Organization id="P114001311-39-1">
+                <OrganizationName>STATE OF MAINE</OrganizationName>
+        </Organization>
+        <Address id="ASPPD1">
+                <Street>1012 BROADWAY</Street>
+                <City>SOUTH PORTLAND</City>
+                <State>ME</State>
+                <ZipCode>04106</ZipCode>
+                <LocationCommonName>License Address</LocationCommonName>
+        </Address>
+        <Address id="ASPPD2">
+                <Street>180 WESCOTT RD</Street>
+                <City>SOUTH PORTLAND</City>
+                <State>ME</State>
+                <ZipCode>04106</ZipCode>
+                <LocationCommonName>ChargeLocation</LocationCommonName>
+        </Address>
+        <Address id="ASPPD3">
+                <Street>180 WESCOTT RD</Street>
+                <City>SOUTH PORTLAND</City>
+                <State>ME</State>
+                <ZipCode>04106</ZipCode>
+                <LocationCommonName>IncidentLocation</LocationCommonName>
+        </Address>
+        <Address id="ASPPD4">
+                <Street>181 ESCOTT RD</Street>
+                <City>SOUTH PORTLAND</City>
+                <State>ME</State>
+                <ZipCode>04106</ZipCode>
+                <LocationCommonName>IncidentLocation</LocationCommonName>
+        </Address>
+        <Court id="CCourt1">
+                <CourtName>Portland Court</CourtName>
+                <LEACourtCode>UCD</LEACourtCode>
+        </Court>
+        <Incident>
+                <AddressReference ref="ASPPD3" />
+                 <Offense>
+                        <ChargeSequenceNumber>09888</ChargeSequenceNumber>
+                        <Statute>29-A S2412-A-1-A A OPERATING WHILE LICENSE SUSPEND</Statute>
+                        <ChargeText>OPERATING WHILE LICENSE SUSPEN09888</ChargeText>
+                        <ChargeDate>2013-05-22</ChargeDate>
+                        <AddressReference ref="ASPPD2" />
+                 </Offense>
+                <Subject>
+                        <PersonOfInterestIndicator>false</PersonOfInterestIndicator>
+                        <Arrest>
+                                <ArrestDate>2013-05-22</ArrestDate>
+                        </Arrest>
+                        <RoleOfPersonReference ref="P213002429-9-1" />
+                        <IncidentJurisdictionCourtReference ref="CCourt1" />
+                </Subject>
+                <Victim id="VVictim1">
+                        <VictimType>B</VictimType>
+                        <RoleOfOrganizationReference ref="P114001311-39-1" />
+                </Victim>
+                <LEACaseNumber>213002429</LEACaseNumber>
+                <IncidentNarrative> OAS On May 22, 2013 at 0830 hours I, Rocco Navarro pulled into the lot of Skillins Elementary School for a routine school check when I noticed a black Volvo sedan (2416LZ)  with an expired registration (April 2013).  I decided to run the registration which came back to Angela Copeland who was suspended.  I recognized Angela (who was sitting in the drivers' seat)  through prior contacts and asked dispatch to confirm the suspension which they did.  Copeland was stopped in the roundabout fire lane in front of the school and I initiated my lights.  I spoke with Copeland who produced only her registration and asked if she was aware of the suspension and she said no.  I informed her the suspension was for insurance purposes and told her it would be in her best interest to contact the Department of Motor Vehicle's to clear the issue up.  Summons issued and File 2 sent.  Copeland was picked up by a friend and her vehicle was left in the lot of Skillins Elementary School. </IncidentNarrative>
+                <IncidentDateRange>
+                        <StartDate>2013-05-22</StartDate>
+                        <EndDate>2013-05-22</EndDate>
+                </IncidentDateRange>
+                <IncidentStatus>Cleared by Arrest</IncidentStatus>
+                <Vehicle>
+                        <VehicleTypeDescription>* TYPE OF REGISTRATION *</VehicleTypeDescription>
+                        <VehicleRegistrationNumber>2416LZ</VehicleRegistrationNumber>
+                        <RegistrationState>ME</RegistrationState>
+                        <ColorText>BLACK</ColorText>
+                        <Year>2000</Year>
+                        <MakeText>VOLVO</MakeText>
+                </Vehicle>
+                <Evidence>
+                       <EvidenceDescription>MARIJUANA/$510.00/SCALE</EvidenceDescription>
+                </Evidence>
+        </Incident>
+        <IssuingOfficer>
+                <OfficerName>NAVARRO, ROCCO</OfficerName>
+                <AgencyName>South Portland OD</AgencyName>
+                <AgencyORI>30600</AgencyORI>
+                <OfficerIdentificationNumber>7412</OfficerIdentificationNumber>
+        </IssuingOfficer>
+        <ReportableToDistrictAttorney>true</ReportableToDistrictAttorney>
+</IncidentReport>

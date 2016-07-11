@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lexspd:doPublish xmlns:lexslib="http://usdoj.gov/leisp/lexs/library/3.1"
+                  xmlns:s="http://niem.gov/niem/structures/2.0"
+                  xmlns:inc-ext="http://ojbc.org/IEPD/Extensions/IncidentReportStructuredPayload/1.0"
+                  xmlns:lexsdigest="http://usdoj.gov/leisp/lexs/digest/3.1"
+                  xmlns:ndexia="http://fbi.gov/cjis/N-DEx/IncidentArrest/2.1"
+                  xmlns:lexspd="http://usdoj.gov/leisp/lexs/publishdiscover/3.1"
+				  xmlns:fn="http://www.w3.org/2005/xpath-functions"
+                  xmlns:lexs="http://usdoj.gov/leisp/lexs/3.1"
+                  xmlns:j="http://niem.gov/niem/domains/jxdm/4.0"
+                  xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+   <lexs:PublishMessageContainer>
+      <lexs:PublishMessage>
+         <lexs:PDMessageMetadata>
+            <lexs:MessageDateTime/>
+         </lexs:PDMessageMetadata>
+         <lexs:DataItemPackage>
+            <lexs:PackageMetadata>
+               <lexs:DataItemID>213002429</lexs:DataItemID>
+               <lexs:DataItemReferenceID>213002429</lexs:DataItemReferenceID>
+               <lexs:DisseminationCriteriaValue/>
+            </lexs:PackageMetadata>
+            <lexs:Digest>
+               <lexsdigest:EntityActivity>
+                  <nc:Activity s:id="d1e177">
+                     <nc:ActivityIdentification>
+                        <nc:IdentificationID>213002429</nc:IdentificationID>
+                     </nc:ActivityIdentification>
+                     <nc:ActivityCategoryText/>
+                     <nc:ActivityDateRange>
+                        <nc:StartDate>
+                           <nc:Date>2013-05-22</nc:Date>
+                        </nc:StartDate>
+                        <nc:EndDate>
+                           <nc:Date>2013-05-22</nc:Date>
+                        </nc:EndDate>
+                     </nc:ActivityDateRange>
+                     <nc:ActivityDescriptionText> OAS On May 22, 2013 at 0830 hours I, Rocco Navarro pulled into the lot of Skillins Elementary School for a routine school check when I noticed a black Volvo sedan (2416LZ)  with an expired registration (April 2013).  I decided to run the registration which came back to Angela Copeland who was suspended.  I recognized Angela (who was sitting in the drivers' seat)  through prior contacts and asked dispatch to confirm the suspension which they did.  Copeland was stopped in the roundabout fire lane in front of the school and I initiated my lights.  I spoke with Copeland who produced only her registration and asked if she was aware of the suspension and she said no.  I informed her the suspension was for insurance purposes and told her it would be in her best interest to contact the Department of Motor Vehicle's to clear the issue up.  Summons issued and File 2 sent.  Copeland was picked up by a friend and her vehicle was left in the lot of Skillins Elementary School. </nc:ActivityDescriptionText>
+                  </nc:Activity>
+               </lexsdigest:EntityActivity>
+               <lexsdigest:EntityActivity>
+                  <nc:Activity s:id="d1e181">
+                     <nc:ActivityCategoryText>Offense</nc:ActivityCategoryText>
+                     <nc:ActivityDate>
+                        <nc:Date>2013-05-22</nc:Date>
+                     </nc:ActivityDate>
+                  </nc:Activity>
+               </lexsdigest:EntityActivity>
+               <lexsdigest:EntityActivity>
+                  <nc:Activity s:id="d1e203">
+                     <nc:ActivityIdentification>
+                        <nc:IdentificationID>213002429</nc:IdentificationID>
+                     </nc:ActivityIdentification>
+                     <nc:ActivityCategoryText/>
+                     <nc:ActivityDate>
+                        <nc:Date>2013-05-22</nc:Date>
+                     </nc:ActivityDate>
+                  </nc:Activity>
+               </lexsdigest:EntityActivity>
+               <lexsdigest:EntityPerson>
+                  <lexsdigest:Person s:id="d1e44">
+                     <nc:PersonBirthDate>
+                        <nc:Date>1976-07-13</nc:Date>
+                     </nc:PersonBirthDate>
+                     <nc:PersonEyeColorCode>BRO</nc:PersonEyeColorCode>
+                     <nc:PersonHairColorCode>BRO</nc:PersonHairColorCode>
+                     <nc:PersonHeightMeasure>
+                        <nc:MeasurePointValue>55</nc:MeasurePointValue>
+                        <nc:LengthUnitCode/>
+                     </nc:PersonHeightMeasure>
+                     <nc:PersonName>
+                        <nc:PersonGivenName>ANGELA</nc:PersonGivenName>
+                        <nc:PersonSurName>COPELAND</nc:PersonSurName>
+                     </nc:PersonName>
+                     <nc:PersonSexCode>F</nc:PersonSexCode>
+                     <nc:PersonWeightMeasure>
+                        <nc:MeasurePointValue>135</nc:MeasurePointValue>
+                        <nc:WeightUnitCode/>
+                     </nc:PersonWeightMeasure>
+                  </lexsdigest:Person>
+                  <j:ArrestSubject s:id="ASd1e198">
+                     <nc:RoleOfPersonReference s:ref="d1e44"/>
+                  </j:ArrestSubject>
+                  <j:IncidentSubject s:id="d1e198">
+                     <nc:RoleOfPersonReference s:ref="d1e44"/>
+                  </j:IncidentSubject>
+               </lexsdigest:EntityPerson>
+               <lexsdigest:EntityPerson>
+                  <lexsdigest:Person s:id="d1e271">
+                     <nc:PersonName>
+                        <nc:PersonFullName>NAVARRO, ROCCO</nc:PersonFullName>
+                     </nc:PersonName>
+                  </lexsdigest:Person>
+                  <j:EnforcementOfficial s:id="d1e271IssuingOfficer">
+                     <nc:RoleOfPersonReference s:ref="d1e271"/>
+                     <j:EnforcementOfficialBadgeIdentification>
+                        <nc:IdentificationID>7412</nc:IdentificationID>
+                     </j:EnforcementOfficialBadgeIdentification>
+                  </j:EnforcementOfficial>
+               </lexsdigest:EntityPerson>
+               <lexsdigest:EntityOrganization>
+                  <nc:Organization s:id="d1e89">
+                     <nc:OrganizationCategoryText>Society</nc:OrganizationCategoryText>
+                     <nc:OrganizationName>STATE OF MAINE</nc:OrganizationName>
+                  </nc:Organization>
+                  <j:Victim s:id="d1e214">
+                     <nc:RoleOfOrganizationReference s:ref="d1e89"/>
+                  </j:Victim>
+               </lexsdigest:EntityOrganization>
+               <lexsdigest:EntityOrganization>
+                  <lexsdigest:Metadata>
+                     <nc:SourceIDText>UCD</nc:SourceIDText>
+                  </lexsdigest:Metadata>
+                  <nc:Organization s:id="d1e168">
+                     <nc:OrganizationCategoryText/>
+                     <nc:OrganizationName>Portland Court</nc:OrganizationName>
+                  </nc:Organization>
+               </lexsdigest:EntityOrganization>
+               <lexsdigest:EntityOrganization>
+                  <nc:Organization s:id="d1e271IssuingAgency">
+                     <nc:OrganizationName>South Portland OD</nc:OrganizationName>
+                  </nc:Organization>
+               </lexsdigest:EntityOrganization>
+               <lexsdigest:EntityLocation>
+                  <nc:Location s:id="d1e96">
+                     <nc:LocationAddress>
+                        <nc:StructuredAddress>
+                           <nc:LocationStreet>
+                              <nc:StreetFullText>1012 BROADWAY</nc:StreetFullText>
+                           </nc:LocationStreet>
+                           <nc:LocationCityName>SOUTH PORTLAND</nc:LocationCityName>
+                           <nc:LocationStateName>ME</nc:LocationStateName>
+                           <nc:LocationPostalCode>04106</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                     </nc:LocationAddress>
+                  </nc:Location>
+               </lexsdigest:EntityLocation>
+               <lexsdigest:EntityLocation>
+                  <nc:Location s:id="d1e114">
+                     <nc:LocationAddress>
+                        <nc:StructuredAddress>
+                           <nc:LocationStreet>
+                              <nc:StreetFullText>180 WESCOTT RD</nc:StreetFullText>
+                           </nc:LocationStreet>
+                           <nc:LocationCityName>SOUTH PORTLAND</nc:LocationCityName>
+                           <nc:LocationStateName>ME</nc:LocationStateName>
+                           <nc:LocationPostalCode>04106</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                     </nc:LocationAddress>
+                  </nc:Location>
+               </lexsdigest:EntityLocation>
+               <lexsdigest:EntityLocation>
+                  <nc:Location s:id="d1e132">
+                     <nc:LocationAddress>
+                        <nc:StructuredAddress>
+                           <nc:LocationStreet>
+                              <nc:StreetFullText>180 WESCOTT RD</nc:StreetFullText>
+                           </nc:LocationStreet>
+                           <nc:LocationCityName>SOUTH PORTLAND</nc:LocationCityName>
+                           <nc:LocationStateName>ME</nc:LocationStateName>
+                           <nc:LocationPostalCode>04106</nc:LocationPostalCode>
+                        </nc:StructuredAddress>
+                     </nc:LocationAddress>
+                  </nc:Location>
+               </lexsdigest:EntityLocation>
+               <lexsdigest:EntityVehicle>
+                  <nc:Vehicle s:id="d1e241">
+                     <nc:ItemCategoryText>* TYPE OF REGISTRATION *</nc:ItemCategoryText>
+                     <nc:ItemColorDescriptionText>BLACK</nc:ItemColorDescriptionText>
+                     <nc:ItemMakeName>VOLVO</nc:ItemMakeName>
+                     <nc:ItemModelYearDate>2000</nc:ItemModelYearDate>
+                     <nc:ConveyanceRegistrationPlateIdentification>
+                        <nc:IdentificationID>2416LZ</nc:IdentificationID>
+                        <j:IdentificationJurisdictionNCICLISCode>ME</j:IdentificationJurisdictionNCICLISCode>
+                     </nc:ConveyanceRegistrationPlateIdentification>
+                  </nc:Vehicle>
+               </lexsdigest:EntityVehicle>
+               <lexsdigest:EntityTangibleItem>
+                  <nc:TangibleItem s:id="d1e263">
+                     <nc:ItemDescriptionText>MARIJUANA/$510.00/SCALE</nc:ItemDescriptionText>
+                  </nc:TangibleItem>
+               </lexsdigest:EntityTangibleItem>
+               <lexsdigest:Associations>
+                  <j:ActivityEnforcementOfficialAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:PersonReference s:ref="d1e271"/>
+                  </j:ActivityEnforcementOfficialAssociation>
+                  <lexsdigest:ArrestOfficerAssociation>
+                     <nc:ActivityReference s:ref="d1e203"/>
+                     <nc:PersonReference s:ref="d1e271"/>
+                  </lexsdigest:ArrestOfficerAssociation>
+                  <lexsdigest:ArrestSubjectAssociation>
+                     <nc:ActivityReference s:ref="d1e203"/>
+                     <nc:PersonReference s:ref="d1e44"/>
+                  </lexsdigest:ArrestSubjectAssociation>
+                  <lexsdigest:IncidentEvidenceAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:ItemReference s:ref="d1e263"/>
+                  </lexsdigest:IncidentEvidenceAssociation>
+                  <lexsdigest:IncidentInvolvedItemAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:ItemReference s:ref="d1e241"/>
+                  </lexsdigest:IncidentInvolvedItemAssociation>
+                  <lexsdigest:IncidentLocationAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:LocationReference s:ref="d1e132"/>
+                  </lexsdigest:IncidentLocationAssociation>
+                  <lexsdigest:IncidentOffenseAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:ActivityReference s:ref="d1e181"/>
+                  </lexsdigest:IncidentOffenseAssociation>
+                  <lexsdigest:IncidentSubjectPersonAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:PersonReference s:ref="d1e44"/>
+                  </lexsdigest:IncidentSubjectPersonAssociation>
+                  <lexsdigest:IncidentVictimOrganizationAssociation>
+                     <nc:ActivityReference s:ref="d1e177"/>
+                     <nc:OrganizationReference s:ref="d1e89"/>
+                  </lexsdigest:IncidentVictimOrganizationAssociation>
+                  <nc:ActivityPrimaryOrganizationAssociation>
+                     <nc:ActivityReference s:ref="d1e203"/>
+                     <nc:OrganizationReference s:ref="d1e168"/>
+                  </nc:ActivityPrimaryOrganizationAssociation>
+                  <nc:PersonAssignedUnitAssociation>
+                     <nc:PersonReference s:ref="d1e271"/>
+                     <nc:OrganizationReference s:ref="d1e271IssuingAgency"/>
+                  </nc:PersonAssignedUnitAssociation>
+                  <nc:ResidenceAssociation>
+                     <nc:PersonReference s:ref="d1e44"/>
+                     <nc:LocationReference s:ref="d1e96"/>
+                  </nc:ResidenceAssociation>
+               </lexsdigest:Associations>
+            </lexs:Digest>
+            <lexs:StructuredPayload>
+               <ndexia:IncidentReport>
+                  <ndexia:Incident>
+                     <ndexia:ActivityStatus>
+                        <ndexia:ActivityStatusAugmentation>
+                           <ndexia:IncidentStatusCode>Cleared by Arrest</ndexia:IncidentStatusCode>
+                        </ndexia:ActivityStatusAugmentation>
+                     </ndexia:ActivityStatus>
+                     <ndexia:IncidentAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e177"/>
+                     </ndexia:IncidentAugmentation>
+                  </ndexia:Incident>
+                  <ndexia:Person>
+                     <ndexia:PersonAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e10"/>
+                        <ndexia:PersonRaceCode>W</ndexia:PersonRaceCode>
+                     </ndexia:PersonAugmentation>
+                  </ndexia:Person>
+                  <ndexia:Person>
+                     <ndexia:PersonAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e44"/>
+                        <ndexia:PersonRaceCode>W</ndexia:PersonRaceCode>
+                     </ndexia:PersonAugmentation>
+                  </ndexia:Person>
+                  <ndexia:EnforcementUnit>
+                     <j:OrganizationAugmentation>
+                        <j:OrganizationORIIdentification>
+                           <nc:IdentificationID>30600</nc:IdentificationID>
+                        </j:OrganizationORIIdentification>
+                     </j:OrganizationAugmentation>
+                     <ndexia:EnforcementUnitAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e271IssuingAgency"/>
+                     </ndexia:EnforcementUnitAugmentation>
+                  </ndexia:EnforcementUnit>
+                  <ndexia:Victim>
+                     <j:VictimCategoryCode>B</j:VictimCategoryCode>
+                     <ndexia:VictimAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e89"/>
+                     </ndexia:VictimAugmentation>
+                  </ndexia:Victim>
+                  <ndexia:Location>
+                     <nc:LocationName>License Address</nc:LocationName>
+                     <ndexia:LocationAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e96"/>
+                     </ndexia:LocationAugmentation>
+                  </ndexia:Location>
+                  <ndexia:Location>
+                     <nc:LocationName>ChargeLocation</nc:LocationName>
+                     <ndexia:LocationAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e114"/>
+                     </ndexia:LocationAugmentation>
+                  </ndexia:Location>
+                  <ndexia:Location>
+                     <nc:LocationName>IncidentLocation</nc:LocationName>
+                     <ndexia:LocationAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e132"/>
+                     </ndexia:LocationAugmentation>
+                  </ndexia:Location>
+                  <ndexia:Location>
+                     <nc:LocationName>IncidentLocation</nc:LocationName>
+                     <ndexia:LocationAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e150"/>
+                     </ndexia:LocationAugmentation>
+                  </ndexia:Location>
+                  <ndexia:Arrest>
+                     <ndexia:ArrestAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e203"/>
+                     </ndexia:ArrestAugmentation>
+                  </ndexia:Arrest>
+                  <ndexia:Offense>
+                     <ndexia:ActivityAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e181"/>
+                     </ndexia:ActivityAugmentation>
+                     <j:Statute>
+                        <j:StatuteCodeIdentification>
+                           <nc:IdentificationID>29-A S2412-A-1-A A OPERATING WHILE LICENSE SUSPEND</nc:IdentificationID>
+                           <nc:IdentificationJurisdictionText/>
+                        </j:StatuteCodeIdentification>
+                        <j:StatuteDescriptionText>OPERATING WHILE LICENSE SUSPEN09888</j:StatuteDescriptionText>
+                     </j:Statute>
+                     <ndexia:OffenseText>OPERATING WHILE LICENSE SUSPEN09888</ndexia:OffenseText>
+                  </ndexia:Offense>
+                  <ndexia:TangibleItem s:id="evidenced1e263">
+                     <ndexia:TangibleItemAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e263"/>
+                     </ndexia:TangibleItemAugmentation>
+                  </ndexia:TangibleItem>
+                  <ndexia:Evidence>
+                     <nc:RoleOfItemReference s:ref="evidenced1e263"/>
+                  </ndexia:Evidence>
+                  <ndexia:Organization>
+                     <ndexia:OrganizationCategoryNDExCode>Society</ndexia:OrganizationCategoryNDExCode>
+                     <ndexia:OrganizationAugmentation>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e89"/>
+                     </ndexia:OrganizationAugmentation>
+                  </ndexia:Organization>
+               </ndexia:IncidentReport>
+            </lexs:StructuredPayload>
+            <lexs:StructuredPayload>
+               <inc-ext:IncidentReport>
+                  <inc-ext:IncidentReportableToDistrictAttorneyIndicator>true</inc-ext:IncidentReportableToDistrictAttorneyIndicator>
+                  <inc-ext:FormRevisionDate/>
+                  <inc-ext:Incident>
+                     <inc-ext:PropertyEvidence>
+                        <lexslib:SameAsDigestReference lexslib:ref="d1e263"/>
+                     </inc-ext:PropertyEvidence>
+                  </inc-ext:Incident>
+                  <inc-ext:IncidentSubject>
+                     <lexslib:SameAsDigestReference lexslib:ref="d1e44"/>
+                     <inc-ext:SubjectIsOfInterestIndicator>false</inc-ext:SubjectIsOfInterestIndicator>
+                  </inc-ext:IncidentSubject>
+               </inc-ext:IncidentReport>
+            </lexs:StructuredPayload>
+         </lexs:DataItemPackage>
+      </lexs:PublishMessage>
+   </lexs:PublishMessageContainer>
+</lexspd:doPublish>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MaineNDExConfiguration xmlns:nc="http://niem.gov/niem/niem-core/2.0" xmlns:lexs="http://usdoj.gov/leisp/lexs/3.1" xmlns:lexspd="http://usdoj.gov/leisp/lexs/publishdiscover/3.1" xmlns:lexsdigest="http://usdoj.gov/leisp/lexs/digest/3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:s="http://niem.gov/niem/structures/2.0" xmlns:j="http://niem.gov/niem/domains/jxdm/4.0">
+	<lexs:PDMessageMetadata>
+		<lexs:LEXSVersion>3.1.4</lexs:LEXSVersion>
+		<lexs:MessageDateTime>2011-07-22T01:01:01</lexs:MessageDateTime>
+		<lexs:MessageSequenceNumber>1</lexs:MessageSequenceNumber>
+		<lexs:DataSensitivity>SBU</lexs:DataSensitivity>
+	</lexs:PDMessageMetadata>
+    <lexs:DataSubmitterMetadata>
+        <lexs:SystemIdentifier>
+            <lexs:ORI>MEMSP0000</lexs:ORI>
+            <nc:OrganizationName>Maine State Police</nc:OrganizationName>
+            <lexs:SystemID>Maine N-DEx Intermediary</lexs:SystemID>
+        </lexs:SystemIdentifier>
+        <lexs:SystemContact>
+        	<nc:PersonSurName>Maine State Police</nc:PersonSurName>
+            <nc:PersonFullName>Maine State Police</nc:PersonFullName>
+            <nc:ContactTelephoneNumber>
+                <nc:NANPTelephoneNumber>
+                    <nc:TelephoneAreaCodeID>207</nc:TelephoneAreaCodeID>
+                    <nc:TelephoneExchangeID>626</nc:TelephoneExchangeID>
+                    <nc:TelephoneLineID>3929</nc:TelephoneLineID>
+                </nc:NANPTelephoneNumber>            
+             </nc:ContactTelephoneNumber>
+            <nc:OrganizationName>Maine State Police</nc:OrganizationName>
+        </lexs:SystemContact>
+    </lexs:DataSubmitterMetadata>
+	<lexs:PackageMetadata>
+		<lexs:DataItemID>99-9999</lexs:DataItemID>
+		<lexs:DataItemContact>
+			<nc:PersonGivenName>Frank</nc:PersonGivenName>
+			<nc:PersonSurName>Smith</nc:PersonSurName>
+			<nc:PersonFullName>Frank Smith</nc:PersonFullName>
+			<nc:ContactTelephoneNumber>
+				<nc:NANPTelephoneNumber>
+					<nc:TelephoneAreaCodeID>999</nc:TelephoneAreaCodeID>
+					<nc:TelephoneExchangeID>999</nc:TelephoneExchangeID>
+					<nc:TelephoneLineID>9999</nc:TelephoneLineID>
+				</nc:NANPTelephoneNumber>
+			</nc:ContactTelephoneNumber>
+			<nc:OrganizationName>Cumberland County Sheriff's Office</nc:OrganizationName>
+		</lexs:DataItemContact>
+		<lexs:DataItemReferenceID>99-9999</lexs:DataItemReferenceID>
+		<lexs:DataItemPublishInstruction>Insert
+					</lexs:DataItemPublishInstruction>
+		<lexs:DataItemStatus>Closed</lexs:DataItemStatus>
+		<lexs:DataOwnerMetadata>
+			<lexs:DataOwnerIdentifier>
+				<lexs:ORI>ME0030000</lexs:ORI>
+				<nc:OrganizationName>Maine State Police</nc:OrganizationName>
+				<lexs:SystemID>N-DEx Connector</lexs:SystemID>
+			</lexs:DataOwnerIdentifier>
+			<lexs:DataOwnerContact>
+				<nc:PersonGivenName>Bill</nc:PersonGivenName>
+				<nc:PersonSurName>Johnson</nc:PersonSurName>
+				<nc:PersonFullName>Bill Johnson</nc:PersonFullName>
+				<nc:ContactTelephoneNumber>
+					<nc:NANPTelephoneNumber>
+						<nc:TelephoneAreaCodeID>999</nc:TelephoneAreaCodeID>
+						<nc:TelephoneExchangeID>999</nc:TelephoneExchangeID>
+						<nc:TelephoneLineID>9999</nc:TelephoneLineID>
+					</nc:NANPTelephoneNumber>
+				</nc:ContactTelephoneNumber>
+				<nc:OrganizationName>Cumberland County Sheriff's Office</nc:OrganizationName>
+			</lexs:DataOwnerContact>
+		</lexs:DataOwnerMetadata>
+		<lexs:DisseminationCriteriaValue>
+			<lexs:DisseminationCriteriaDomainText>N-DEx</lexs:DisseminationCriteriaDomainText>
+			<lexs:DisseminationCriteriaText>Green</lexs:DisseminationCriteriaText>
+		</lexs:DisseminationCriteriaValue>
+		<lexs:DataItemCategory>
+			<lexs:DataItemCategoryText>Incident Report</lexs:DataItemCategoryText>
+		</lexs:DataItemCategory>
+	</lexs:PackageMetadata>
+	<N-DExStructuredPayload>
+		<lexs:StructuredPayloadMetadata>
+			<lexs:CommunityURI>http://fbi.gov/cjis/N-DEx/IncidentArrest/2.1</lexs:CommunityURI>
+			<lexs:CommunityDescription>N-DEx IncidentArrest</lexs:CommunityDescription>
+			<lexs:CommunityVersion>2.1</lexs:CommunityVersion>
+		</lexs:StructuredPayloadMetadata>
+	</N-DExStructuredPayload>
+	<MaineStructuredPayload>
+		<lexs:StructuredPayloadMetadata>
+			<lexs:CommunityURI>http://www.ojbc.org</lexs:CommunityURI>
+			<lexs:CommunityDescription>OJBC</lexs:CommunityDescription>
+			<lexs:CommunityVersion>1.0</lexs:CommunityVersion>
+		</lexs:StructuredPayloadMetadata>
+	</MaineStructuredPayload>
+	<StaticVariables>
+		<TimeUnit>ANN</TimeUnit>
+		<IncidentActivityCategory>Incident</IncidentActivityCategory>
+		<ArrestActivityCategory>Arrest</ArrestActivityCategory>
+		<StateCode>ME</StateCode>
+		<StateName>Maine</StateName>
+		<IssuingAgency>Cumberland County Sheriff's Office</IssuingAgency>
+		<AgencyCategory>Criminal Justice</AgencyCategory>
+		<FormRevisionDate>2010-09-01T01:01:01</FormRevisionDate>
+		<HeightMeasureUnit>INH</HeightMeasureUnit>
+		<WeightMeasureUnit>LBR</WeightMeasureUnit>
+	</StaticVariables>
+</MaineNDExConfiguration>
